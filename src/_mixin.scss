@@ -1,0 +1,4 @@
+@mixin opacity($v) {
+  opacity: $v;
+  filter: progid:DXImageTransform.Microsoft.Alpha+unquote("(Opacity="+($v*100)+")");
+}

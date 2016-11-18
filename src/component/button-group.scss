@@ -1,0 +1,11 @@
+
+.button-group {
+  .btn {
+    margin-right: 0.5em;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+}
